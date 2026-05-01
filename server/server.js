@@ -19,7 +19,7 @@ const hpp = require('hpp');
 const app = express();
 
 // Middleware
-app.use(helmet()); // Set security headers
+app.use(helmet({ crossOriginResourcePolicy: { policy: "cross-origin" } })); // Set security headers
 app.use(express.json({ limit: '10kb' })); // Body parser, limiting data size
 app.use(express.urlencoded({ extended: true, limit: '10kb' }));
 app.use(mongoSanitize()); // Prevent NoSQL Injection
