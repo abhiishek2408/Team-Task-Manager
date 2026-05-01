@@ -13,6 +13,10 @@ TaskFlow is a premium, full-stack task management application designed for teams
 
 ![TaskFlow Logo](client/public/logo.png)
 
+## 🌐 Live Links
+
+- **Live Application (Frontend):** [https://team-task-manager-yip2.vercel.app/](https://team-task-manager-yip2.vercel.app/)
+- **Production Backend API:** [https://team-task-manager-production-backend.up.railway.app/](https://team-task-manager-production-backend.up.railway.app/)
 
 ##  Tech Stack
 
