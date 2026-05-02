@@ -90,7 +90,7 @@ export default function Login() {
                   <p className="demo-label">Quick demo:</p>
                   <div style={{ display: 'flex', gap: 8 }}>
                     <button type="button" className="demo-chip" onClick={() => fillDemo('admin@taskmanager.com', 'admin123')}>Admin</button>
-                    <button type="button" className="demo-chip" onClick={() => fillDemo('sarah@taskmanager.com', 'member123')}>Member</button>
+                    <button type="button" className="demo-chip" onClick={() => fillDemo('priya@taskmanager.com', 'member123')}>Member</button>
                   </div>
                 </div>
               </div>

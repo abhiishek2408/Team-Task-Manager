@@ -1,0 +1,70 @@
+TaskFlow - Demo Video Guide & Script
+This guide will help you record a professional and comprehensive demo video for your TaskFlow (Team Task Manager) application. It is broken down into structured sections with a suggested voiceover script and on-screen actions.
+
+🎬 Video Structure Overview (Target Length: 2-3 Minutes)
+Introduction (15 seconds): Project name, purpose, and tech stack.
+Admin Experience (60 seconds): Logging in as Admin, exploring the dashboard, creating projects, and assigning tasks using Kanban/List views.
+Member Experience (45 seconds): Logging in as a Member, showing role-based access restrictions, and updating task statuses.
+Security & Responsiveness (30 seconds): Demonstrating mobile view and briefly mentioning backend security.
+Outro (10 seconds): Closing remarks and where to find the live links.
+📝 Step-by-Step Script & Actions
+1. Introduction
+On-screen Action: Start on the Login page of the live frontend URL (https://team-task-manager-yip2.vercel.app/).
+Script:
+"Hello everyone, welcome to the demo of TaskFlow, a premium, full-stack Team Task Manager. This application is built using the MERN stack—MongoDB, Express, React, and Node.js. It features a modern UI, real-time analytics, and role-based access control. Let's dive in."
+
+2. Admin Capabilities & Dashboard
+On-screen Action: Log in using the Admin credentials:
+Email: admin@taskmanager.com
+Password: admin123
+Script:
+"First, I'll log in as an Admin. Upon logging in, we are greeted by a dynamic dashboard that visualizes project counts, task statuses, and overdue items in high contrast."
+
+Creating a Project:
+
+On-screen Action: Navigate to the Projects section from the sidebar. Click the "Create Project" (or "Add Project") button. Fill in a project name (e.g., "Website Redesign"), a brief description, and select team members to include from the dropdown. Finally, click Submit.
+Script:
+"As an admin, I have full control over the workspace. Let's create a new project. I simply go to the Projects section, click 'Create Project', give it a name like 'Website Redesign', and instantly add our team members—like Priya and Rahul—to this specific project. It's fast and intuitive."
+
+Creating and Assigning a Task:
+
+On-screen Action: Navigate to the Tasks section or open the newly created project. Click "Create Task" (or "Add Task"). Enter a task title (e.g., "Design Homepage UI"), set the priority to "High", and assign it to "Priya Patel".
+Script:
+"Now that we have a project, let's assign some work. I'll create a new task called 'Design Homepage UI'. I can set its priority, define a deadline, and directly assign it to one of our team members, Priya. This ensures everyone knows exactly what they are responsible for."
+
+Managing Tasks (Kanban & List Views):
+
+On-screen Action: While still in the Tasks section, toggle between the Kanban board and List views. Drag and drop the task we just created into the "In Progress" column (if drag-and-drop is supported), or simply update its status via the task menu.
+Script:
+"For tracking progress, TaskFlow offers flexible viewing options. You can easily switch between a detailed List view and an interactive Kanban board. Updating a task's status is completely seamless, giving admins a real-time overview of the team's productivity."
+
+3. Member Capabilities & Role-Based Access Control (RBAC)
+On-screen Action: Log out of the Admin account. Log back in using Member credentials:
+Email: priya@taskmanager.com
+Password: member123
+Script:
+"Now, let's see the Role-Based Access Control in action. I'll log out and sign in as a Team Member."
+
+On-screen Action: Show the dashboard and try to access admin-only features (like creating new projects, which should be hidden or restricted). Then, update a task status.
+Script:
+"You'll notice the interface adapts to the Member role. Members cannot create new projects or access administrative settings. However, they can view their assigned projects and update their task statuses, keeping the whole team synced."
+
+4. Responsive Design & Technical Highlights
+On-screen Action: Open browser Developer Tools (F12) and toggle the "Device Toolbar" (Ctrl+Shift+M) to show how the app looks on a mobile screen. Scroll through the mobile view.
+Script:
+"TaskFlow is fully optimized for all devices—mobile, tablet, and desktop, ensuring a seamless experience anywhere."
+
+On-screen Action: Briefly mention the backend architecture.
+Script:
+"Under the hood, the backend is secured with JWT authentication, rate limiting to prevent brute-force attacks, and Helmet for secure HTTP headers, making it production-ready."
+
+5. Outro
+On-screen Action: Show the live application home page or dashboard one last time.
+Script:
+"Thank you for watching the demo of TaskFlow. The frontend is deployed on Vercel, and the backend is live on Railway. Feel free to check out the live links and the GitHub repository in the description below!"
+
+💡 Quick Tips for a Great Demo Video
+Keep it fast-paced: Don't linger too long on typing. You can pre-fill forms or use autocomplete to save time.
+Audio Quality: Use a decent microphone and minimize background noise.
+Clean Environment: Close unnecessary browser tabs and hide your bookmarks bar before recording.
+Tools: Use tools like OBS Studio, Loom, or Windows Game Bar (Win + G) to record your screen smoothly.
