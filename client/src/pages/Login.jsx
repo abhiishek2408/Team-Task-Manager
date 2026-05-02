@@ -101,7 +101,7 @@ export default function Login() {
               <p className="auth-subtitle">Join your team on TaskFlow</p>
               <div className="form-group">
                 <label className="form-label">Full name</label>
-                <input className="form-input" type="text" required placeholder="Jane Smith"
+                <input className="form-input" type="text" required placeholder="Enter Your Name"
                   value={regData.name} onChange={e => setRegData({ ...regData, name: e.target.value })} />
               </div>
               <div className="form-group">
